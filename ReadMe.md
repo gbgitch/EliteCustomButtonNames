@@ -1,30 +1,26 @@
----
-typora-root-url: ./
----
-
 # Custom Button Labels for Elite Dangerous
 
 <img src="docs\images\Settings Compared.png" alt="Settings Compared" style="zoom:50%;" />
 
 What sorcery is this? None really, I just populated a couple of XML files in my Bindings folder according to Frontier's documentation. You can freely name all the buttons and axes, for example to distinguish the throttle from the stick as above, and a variety of icons are available. The best part is that the names are shown not just in the Settings panels, but everywhere in-game:
 
-Pre-flight
+### Pre-flight
 
 <img src="/docs/images/Pre-Flight.png" alt="Pre-Flight" style="zoom:75%;" />
 
-Standard Cam
+### Standard Cam
 
 <img src="/docs/images/Standard Cam.png" alt="Standard Cam" style="zoom:75%;" />
 
-Free Cam
+### Free Cam
 
 <img src="/docs/images/Free Cam.png" alt="Free Cam" style="zoom:75%;" />
 
-Full Spectrum Scanner
+### Full Spectrum Scanner
 
 <img src="/docs/images/FSS.png" alt="FSS" style="zoom:75%;" />
 
-FSS Help Screen
+### FSS Help Screen
 
 <img src="/docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
 
@@ -60,6 +56,4 @@ In their readme, Frontier advise making sure that your device is so listed, but 
 It's up to you but personally I like to leave the game's Products directory well alone and put up with the slightly ugly VID+PID naming convention.
 
 Enjoy!
-
-
 
