@@ -24,11 +24,9 @@ What sorcery is this? None really, I just populated a couple of XML files in my 
 
 <img src="/docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
 
-
-
 ## Getting started
 
-First navigate to the game's `ControlSchemes`  folder. By default this is at `%LocalAppData%\Frontier_Developments\Products\elite-dangerous-odyssey-64\ControlSchemes`.
+First navigate to the game's `ControlSchemes` folder. By default this is at `%LocalAppData%\Frontier_Developments\Products\elite-dangerous-odyssey-64\ControlSchemes`.
 
 Inside you will find a folder called `DeviceButtonMaps` and in it is a `Readme.txt` file plus a couple of sample button map files. Note however that we don't want to change anything in here because any changes will be clobbered by the next game update. Still the readme is very useful as it lists all the icons that are available.
 
@@ -48,12 +46,21 @@ For the uninitiated, every USB device has a Vendor ID (VID) and Product ID (PID)
 
 If however the device's VID and PID are listed in `ControlSchemes\DeviceMappings.xml` then the button map can use that name - hence `T16000MTHROTTLE.buttonMap` for the Thrustmaster TWCS throttle.
 
-In their readme, Frontier advise making sure that your device is so listed, but I found that it had some undesirable effects:
+In their readme, Frontier advise making sure that your device is so listed, meaning editing `ControlSchemes\DeviceMappings.xml`, but I found that it had some undesirable effects:
 
 1. Your binds file will start using that name instead of the VID and PID, meaning that sites like [EDRefCard](https://edrefcard.info/) won't know what to do with it.
 2. The next game update will clobber your changes (I have confirmed this personally). If you forget to reinstate your edits before  launching the game, it won't recognize the custom name on your binds file, won't be able to load it, and may even clobber it too.
 
 It's up to you but personally I like to leave the game's Products directory well alone and put up with the slightly ugly VID+PID naming convention.
 
+To clarify: if your device is named in `ControlSchemes\DeviceMappings.xml` then by all means use that name. If not, I would advise against editing `ControlSchemes\DeviceMappings.xml` and just got with the "VID+PID" name.
+
 Enjoy!
 
+#### Postscript about the GNX button map
+
+A *very* thorough reader might notice that my `231D0200.buttonMap` has an unexpected entry at the end:
+```xml
+	<Joy_31>GNX C1 Long Press</Joy_31>
+```
+This is indeed a customization that I made to my own stick using VKB's software -- I configured a long press on C1 as a virtual button 31 which I use to toggle my TrackIR. You can ignore this unless you have also used VKB's software in this way, in which case I'm sure you know what you're doing.
