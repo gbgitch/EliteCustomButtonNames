@@ -24,8 +24,6 @@ What sorcery is this? None really, I just populated a couple of XML files in my 
 
 <img src="/docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
 
-
-
 ## Getting started
 
 First navigate to the game's `ControlSchemes`  folder. By default this is at `%LocalAppData%\Frontier_Developments\Products\elite-dangerous-odyssey-64\ControlSchemes`. Steam users may find the file at `[your Steam library location]\steamapps\common\Elite Dangerous\Products\elite-dangerous-odyssey-64\ControlSchemes`.
@@ -65,3 +63,10 @@ It's up to you but personally I like to leave the game's Products directory well
 
 Enjoy!
 
+#### Postscript about the GNX button map
+
+A *very* thorough reader might notice that my `231D0200.buttonMap` has an unexpected entry at the end:
+```xml
+	<Joy_31>GNX C1 Long Press</Joy_31>
+```
+This is indeed a customization that I made to my own stick using VKB's software -- I configured a long press on C1 as a virtual button 31 which I use to toggle my TrackIR. You can ignore this unless you have also used VKB's software in this way, in which case I'm sure you know what you're doing.
