@@ -53,7 +53,7 @@ In their readme, Frontier advise making sure that your device is so listed, mean
 
 It's up to you but personally I like to leave the game's Products directory well alone and put up with the slightly ugly VID+PID naming convention.
 
-To clarify: if your device is named in `ControlSchemes\DeviceMappings.xml` then by all means use that name. If not, I would advise against editing `ControlSchemes\DeviceMappings.xml` and just got with the "VID+PID" name.
+To clarify: if your device is named in `ControlSchemes\DeviceMappings.xml` then by all means use that name. If not, I would advise against editing `ControlSchemes\DeviceMappings.xml` and just go with the "VID+PID" name.
 
 Enjoy!
 
