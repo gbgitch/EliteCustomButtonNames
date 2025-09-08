@@ -1,9 +1,9 @@
 <Root>
-	<Joy_XAxis>TWCS Thumbstick X</Joy_XAxis>
-	<Joy_YAxis>TWCS Thumbstick Y</Joy_YAxis>
+	<Joy_XAxis>TWCS Ministick X</Joy_XAxis>
+	<Joy_YAxis>TWCS Ministick Y</Joy_YAxis>
 	<Joy_ZAxis>TWCS Throttle</Joy_ZAxis>
-	<Joy_RXAxis>TWCS R Toe Brake</Joy_RXAxis>
-	<Joy_RYAxis>TWCS L Toe Brake</Joy_RYAxis>
+	<Joy_RXAxis>TWCS Right Pedal</Joy_RXAxis>
+	<Joy_RYAxis>TWCS Left Pedal</Joy_RYAxis>
 	<Joy_RZAxis>TWCS Paddle</Joy_RZAxis>
 	<Joy_UAxis>TWCS Tuning Wheel</Joy_UAxis>
 	<Joy_VAxis>TWCS Rudder</Joy_VAxis>
@@ -16,7 +16,7 @@
 	<Joy_3>TWCS Ring Finger</Joy_3>
 	<Joy_4>TWCS Rocker [ps4PadU]</Joy_4>
 	<Joy_5>TWCS Rocker [ps4PadD]</Joy_5>
-	<Joy_6>TWCS Thumbstick Click</Joy_6>
+	<Joy_6>TWCS Ministick Click</Joy_6>
 	<Joy_7>TWCS Saddle [ps4PadU]</Joy_7>
 	<Joy_8>TWCS Saddle [ps4PadR]</Joy_8>
 	<Joy_9>TWCS Saddle [ps4PadD]</Joy_9>
