@@ -42,7 +42,7 @@ As Frontier's readme notes, you can edit and save these button maps while the ga
 
 ## Creating your own button maps
 
-Before you can create custom button labels for your controls, you need to identify the device name of the control you want to map. If you don't know what that is, go into your Bindings folder at `%LocalAppData%\Frontier Developments\Elite Dangerous\Options\Bindings` and open your current `.binds` files in a text editor. Look for sections that start with `Device=` and note the value(s). These are your device names. If you don't recognize the device name, the control may be identified using its VID and PID (as discussed below).
+Before you can create custom button labels for your devices, you need to identify the name of the device you want to map. If you don't know what that is, go into your Bindings folder at `%LocalAppData%\Frontier Developments\Elite Dangerous\Options\Bindings` and open your current `.binds` files in a text editor. Look for sections that start with `Device=` and note the value(s). These are your device names. If you don't recognize the device name, the device may be identified using its VID and PID (as discussed below).
 
 To create your own button labels, start by copying `Generic.buttonMap` to a new file. Change the name of the file to match the device name for the controller you want to customize (e.g. `T16000MTHROTTLE.buttonMap` for device name `T16000MTHROTTLE`). 
 
@@ -56,8 +56,8 @@ You can create your button labels using that same VID and PID, Hence `231D0200.b
 
 In their readme, Frontier advise making sure that your device is listed in the `ControlSchemes\DeviceMappings.xml` file but editing this file can have undesirable effects:
 
-1. Your binds file will start using that name instead of the VID and PID, meaning that sites like [EDRefCard](https://edrefcard.info/) won't know what to do with it.
-2. The next game update will clobber your changes (I have confirmed this personally). If you forget to reinstate your edits before  launching the game, it won't recognize the custom name on your binds file, won't be able to load it, and may even clobber it too.
+1. Your `.binds` file will start using that name instead of the VID and PID, meaning that sites like [EDRefCard](https://edrefcard.info/) won't know what to do with it.
+2. The next game update will clobber your changes (I have confirmed this personally). If you forget to reinstate your edits before  launching the game, it won't recognize the custom name on your `.binds` file, won't be able to load it, and may even clobber it too.
 
 It's up to you but personally I like to leave the game's Products directory well alone and put up with the slightly ugly alternative VID+PID naming convention.
 
