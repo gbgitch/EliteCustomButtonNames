@@ -1,3 +1,4 @@
+<!-- Template for a generic joystick -->
 <Root>
 	<Joy_RXAxis>Stick RXAxis</Joy_RXAxis>
 	<Joy_RYAxis>Stick RYAxis</Joy_RYAxis>
