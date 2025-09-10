@@ -26,9 +26,9 @@ What sorcery is this? None really, I just populated a couple of XML files in my 
 
 ## Getting started
 
-First navigate to the game's `ControlSchemes` folder. By default this is at `%LocalAppData%\Frontier_Developments\Products\elite-dangerous-odyssey-64\ControlSchemes`.
+First navigate to the game's `ControlSchemes`  folder. By default this is at `%LocalAppData%\Frontier_Developments\Products\elite-dangerous-odyssey-64\ControlSchemes`. Steam users may find the file at `[your Steam library location]\steamapps\common\Elite Dangerous\Products\elite-dangerous-odyssey-64\ControlSchemes`.
 
-Inside you will find a folder called `DeviceButtonMaps` and in it is a `Readme.txt` file plus a couple of sample button map files. Note however that we don't want to change anything in here because any changes will be clobbered by the next game update. Still the readme is very useful as it lists all the icons that are available.
+Inside you will find a folder called `DeviceButtonMaps` and in it is a `Readme.txt` file plus a couple of sample button map files. Note however that we don't want to change anything in here because any changes will be clobbered by the next game update. Still the readme is very useful as it lists all the icons that are currently available.
 
 Instead you want to go to your Bindings folder, which is at `%LocalAppData%\Frontier Developments\Elite Dangerous\Options\Bindings`. If you have been playing for any length of time you probably know the importance of keeping a backup of this folder. In this Git repo, go to `.\files\INTO Bindings` and copy the `DeviceButtonMaps` folder from there to your own Bindings folder. That's it, all done. 
 
@@ -38,22 +38,28 @@ At the time of writing I include:
 - `T16000MTHROTTLE.buttonMap` for the Thrustmaster TWCS throttle
 - `231D0200.buttonMap`for the VKB Gladiator NXT Premium Right stick
 
-As Frontier's readme notes, you can edit and save these button maps while the game is running to experiment with how different names and icons look. Just go into Options->Controls and the game will re-read them.
+As Frontier's readme notes, you can edit and save these button maps while the game is running to experiment with how different names and icons look. Just go into Options -> Controls and the game will re-read them.
 
-## Named devices versus VID and PID
+## Creating your own button maps
 
-For the uninitiated, every USB device has a Vendor ID (VID) and Product ID (PID) - these are 4 hexadecimal digits each. My VKB Gladiator NXT has VID 231D and PID 0200 which is why the button map for it has that name, and so do all the entries for it in any `*.binds` file.
+Before you can create custom button labels for your devices, you need to identify the name of the device you want to map. If you don't know what that is, go into your Bindings folder at `%LocalAppData%\Frontier Developments\Elite Dangerous\Options\Bindings` and open your current `.binds` files in a text editor. Look for sections that start with `Device=` and note the value(s). These are your device names. If you don't recognize the device name, the device may be identified using its VID and PID (as discussed below).
 
-If however the device's VID and PID are listed in `ControlSchemes\DeviceMappings.xml` then the button map can use that name - hence `T16000MTHROTTLE.buttonMap` for the Thrustmaster TWCS throttle.
+To create your own button labels, start by copying `Generic.buttonMap` to a new file. Change the name of the file to match the device name for the controller you want to customize (e.g. `T16000MTHROTTLE.buttonMap` for device name `T16000MTHROTTLE`). 
 
-In their readme, Frontier advise making sure that your device is so listed, meaning editing `ControlSchemes\DeviceMappings.xml`, but I found that it had some undesirable effects:
+Open the file and edit the names and icons as you wish. You can refer to the `Readme.txt` in the `ControlSchemes\DeviceButtonMaps` folder for a list of available icons. Save your changes.
 
-1. Your binds file will start using that name instead of the VID and PID, meaning that sites like [EDRefCard](https://edrefcard.info/) won't know what to do with it.
-2. The next game update will clobber your changes (I have confirmed this personally). If you forget to reinstate your edits before  launching the game, it won't recognize the custom name on your binds file, won't be able to load it, and may even clobber it too.
+## Bonus Content: Named devices versus VID and PID
 
-It's up to you but personally I like to leave the game's Products directory well alone and put up with the slightly ugly VID+PID naming convention.
+Every USB device has a Vendor ID (VID) and Product ID (PID) - these are 4 hexadecimal digits each. Your `.binds` files may identify your control using its VID and PID. 
 
-To clarify: if your device is named in `ControlSchemes\DeviceMappings.xml` then by all means use that name. If not, I would advise against editing `ControlSchemes\DeviceMappings.xml` and just go with the "VID+PID" name.
+You can create your button labels using that same VID and PID, Hence `231D0200.buttonMap` for my VKB Gladiator NXT Premium Right stick which has VID 231D and PID 0200.
+
+In their readme, Frontier advise making sure that your device is listed in the `ControlSchemes\DeviceMappings.xml` file but editing this file can have undesirable effects:
+
+1. Your `.binds` file will start using that name instead of the VID and PID, meaning that sites like [EDRefCard](https://edrefcard.info/) won't know what to do with it.
+2. The next game update will clobber your changes (I have confirmed this personally). If you forget to reinstate your edits before  launching the game, it won't recognize the custom name on your `.binds` file, won't be able to load it, and may even clobber it too.
+
+It's up to you but personally I like to leave the game's Products directory well alone and put up with the slightly ugly alternative VID+PID naming convention.
 
 Enjoy!
 
