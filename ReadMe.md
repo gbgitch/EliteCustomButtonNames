@@ -51,6 +51,9 @@ Open the file and edit the names and icons as you wish. You can refer to the `Re
 ## Troubleshooting
 Elite Dangerous expects valid XML in the buttonMap files, and will reject buttonMaps that do not fully parse without any error messages. If you have any trouble it is recommended that you run your file through a visual XML parser, such as [this one](https://jsonformatter.org/xml-parser), to check for issues.
 
+## Forum Thread
+GitHub is great for change management but not so great for discussion. If preferred, there is a [thread on Frontier's Forums](https://forums.frontier.co.uk/threads/custom-button-labels-for-elite-dangerous.641113/).
+
 ## Bonus Content: Named devices versus VID and PID
 
 Every USB device has a Vendor ID (VID) and Product ID (PID) - these are 4 hexadecimal digits each. Your `.binds` files may identify your control using its VID and PID. 
@@ -66,7 +69,7 @@ It's up to you but personally I like to leave the game's Products directory well
 
 Enjoy!
 
-#### Postscript about the GNX button map
+### Postscript about the GNX button map
 
 A *very* thorough reader might notice that my `231D0200.buttonMap` has an unexpected entry at the end:
 ```xml
