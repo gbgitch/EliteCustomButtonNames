@@ -48,6 +48,8 @@ To create your own button labels, start by copying `Generic.buttonMap` to a new 
 
 Open the file and edit the names and icons as you wish. You can refer to the `Readme.txt` in the `ControlSchemes\DeviceButtonMaps` folder for a list of available icons. Save your changes.
 
+Update: CMDR NutBall has very kindly compiled a preview sheet of all the available icons [here](https://cmdr-nutball.github.io/Elite-Dangerous-buttonmap-Icons/).
+
 ## Troubleshooting
 Elite Dangerous expects valid XML in the buttonMap files, and will reject buttonMaps that do not fully parse without any error messages. If you have any trouble it is recommended that you run your file through a visual XML parser, such as [this one](https://jsonformatter.org/xml-parser), to check for issues.
 
