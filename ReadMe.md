@@ -6,23 +6,23 @@ What sorcery is this? None really, I just populated a couple of XML files in my 
 
 ### Pre-flight
 
-<img src="/docs/images/Pre-Flight.png" alt="Pre-Flight" style="zoom:75%;" />
+<img src="docs/images/Pre-Flight.png" alt="Pre-Flight" style="zoom:75%;" />
 
 ### Standard Cam
 
-<img src="/docs/images/Standard Cam.png" alt="Standard Cam" style="zoom:75%;" />
+<img src="docs/images/Standard Cam.png" alt="Standard Cam" style="zoom:75%;" />
 
 ### Free Cam
 
-<img src="/docs/images/Free Cam.png" alt="Free Cam" style="zoom:75%;" />
+<img src="docs/images/Free Cam.png" alt="Free Cam" style="zoom:75%;" />
 
 ### Full Spectrum Scanner
 
-<img src="/docs/images/FSS.png" alt="FSS" style="zoom:75%;" />
+<img src="docs/images/FSS.png" alt="FSS" style="zoom:75%;" />
 
 ### FSS Help Screen
 
-<img src="/docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
+<img src="docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
 
 ## Getting started
 
