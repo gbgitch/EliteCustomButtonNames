@@ -6,23 +6,23 @@ What sorcery is this? None really, I just populated a couple of XML files in my 
 
 ### Pre-flight
 
-<img src="/docs/images/Pre-Flight.png" alt="Pre-Flight" style="zoom:75%;" />
+<img src="docs/images/Pre-Flight.png" alt="Pre-Flight" style="zoom:75%;" />
 
 ### Standard Cam
 
-<img src="/docs/images/Standard Cam.png" alt="Standard Cam" style="zoom:75%;" />
+<img src="docs/images/Standard Cam.png" alt="Standard Cam" style="zoom:75%;" />
 
 ### Free Cam
 
-<img src="/docs/images/Free Cam.png" alt="Free Cam" style="zoom:75%;" />
+<img src="docs/images/Free Cam.png" alt="Free Cam" style="zoom:75%;" />
 
 ### Full Spectrum Scanner
 
-<img src="/docs/images/FSS.png" alt="FSS" style="zoom:75%;" />
+<img src="docs/images/FSS.png" alt="FSS" style="zoom:75%;" />
 
 ### FSS Help Screen
 
-<img src="/docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
+<img src="docs/images/FSS Help.png" alt="FSS Help" style="zoom:75%;" />
 
 ## Getting started
 
@@ -47,6 +47,8 @@ Before you can create custom button labels for your devices, you need to identif
 To create your own button labels, start by copying `Generic.buttonMap` to a new file. Change the name of the file to match the device name for the controller you want to customize (e.g. `T16000MTHROTTLE.buttonMap` for device name `T16000MTHROTTLE`). 
 
 Open the file and edit the names and icons as you wish. You can refer to the `Readme.txt` in the `ControlSchemes\DeviceButtonMaps` folder for a list of available icons. Save your changes.
+
+Update: CMDR NutBall has very kindly compiled a preview sheet of all the available icons [here](https://cmdr-nutball.github.io/Elite-Dangerous-buttonmap-Icons/).
 
 ## Troubleshooting
 Elite Dangerous expects valid XML in the buttonMap files, and will reject buttonMaps that do not fully parse without any error messages. If you have any trouble it is recommended that you run your file through a visual XML parser, such as [this one](https://jsonformatter.org/xml-parser), to check for issues.
