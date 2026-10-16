@@ -67,8 +67,8 @@ At the time of writing the folder includes `Generic.buttonMap`, which has every 
 | VPC Throttle MT\|50CM3 (Left)| VPCThrottle.buttonMap |
 | VPC VMAX Prime Throttle (Left side)| 33448196.buttonMap |
 | VPC WarBRD Constellation Alpha Prime (Right)| 334400D4.buttonMap |
-| VPC WarBRD\|D with Constellation Alpha Prime (Left hand and side)| 334483F4.buttonMap |
-| VPC WarBRD\|D with Constellation Alpha Prime (Right hand and side)| 334443F5.buttonMap |
+| VPC WarBRD\|D with Constellation Alpha Prime (Left hand and side)| 334483F4.buttonMap<br />334483E8.buttonMap |
+| VPC WarBRD\|D with Constellation Alpha Prime (Right hand and side)| 334443F5.buttonMap<br />334443E8.buttonMap |
 | WINCTRL CarrierAce PTO 2| 4098BF05.buttonMap |
 | WINCTRL MFD| 4098BEE1.buttonMap |
 | WINCTRL MFD 1| 4098BEE2.buttonMap |
