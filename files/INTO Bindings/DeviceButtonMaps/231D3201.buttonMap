@@ -1,4 +1,4 @@
-<!-- VKB Gladiator EVO NXT Left Hand Space Combat Grip Premium OmniThrottle -->
+<!-- VKB Gladiator NXT EVO Space Combat Grip Premium OmniThrottle (Left) -->
 <Root>
 	<Joy_RXAxis>LGNX Thumbstick X</Joy_RXAxis>
 	<Joy_RYAxis>LGNX Thumbstick Y</Joy_RYAxis>
@@ -27,7 +27,7 @@
 	<Joy_1>LGNX Fire 1</Joy_1>
 	<Joy_2>LGNX Fire 2</Joy_2>
 	<Joy_3>LGNX A2 (thumb red)</Joy_3>
-	<Joy_4>LGNX B1 (right side)</Joy_4>
+	<Joy_4>LGNX B1 (left side)</Joy_4>
 	<Joy_5>LGNX D1 (pinky)</Joy_5>
 	<Joy_6>LGNX A3 [ps4PadU]</Joy_6>
 	<Joy_7>LGNX A3 [ps4PadR]</Joy_7>

@@ -1,0 +1,31 @@
+# Treats buttonMap files as XML and validates both
+name: Validate buttonMaps and XML
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events
+  push:
+  pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "validate"
+  validate:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Validates that .xml and .buttonMap files are valid XML. The file suffix is case-insentive.
+      # Default path is "/"
+      - name: Validate buttonMaps and XML
+        uses: action-pack/valid-xml@v1
+        with:
+          file-endings: ".xml, .buttonMap"
+ 

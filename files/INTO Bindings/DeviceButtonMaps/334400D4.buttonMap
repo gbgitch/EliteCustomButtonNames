@@ -1,4 +1,4 @@
-<!-- VPC WarBRD Constellation Alpha Prime (R)-->
+<!-- VPC WarBRD Constellation Alpha Prime (Right)-->
 <Root>
 	<Joy_RXAxis>POV Hat X</Joy_RXAxis>
 	<Joy_RYAxis>POV Hat Y</Joy_RYAxis>
@@ -8,22 +8,22 @@
 	<Joy_XAxis>[x52x]</Joy_XAxis>
 	<Joy_YAxis>[x52y]</Joy_YAxis>
 	<Joy_ZAxis>[x52rz]</Joy_ZAxis>
-	<Joy_POV1Up>unused pvo1up</Joy_POV1Up>
-	<Joy_POV1Right>unused pvo1right</Joy_POV1Right>
-	<Joy_POV1Down>unused pvo1down</Joy_POV1Down>
-	<Joy_POV1Left>unused pvo1left</Joy_POV1Left>
-	<Joy_POV2Up>unused pvo2up</Joy_POV2Up>
-	<Joy_POV2Right>unused pvo2right</Joy_POV2Right>
-	<Joy_POV2Down>unused pvo2down</Joy_POV2Down>
-	<Joy_POV2Left>unused pvo2left</Joy_POV2Left>
-	<Joy_POV3Up>unused pvo3up</Joy_POV3Up>
-	<Joy_POV3Right>unused pvo3right</Joy_POV3Right>
-	<Joy_POV3Down>unused pvo3down</Joy_POV3Down>
-	<Joy_POV3Left>unused pvo1left</Joy_POV3Left>
-	<Joy_POV4Up>unused pvo4up</Joy_POV4Up>
-	<Joy_POV4Right>unused pvo4right</Joy_POV4Right>
-	<Joy_POV4Down>unused pvo4down</Joy_POV4Down>
-	<Joy_POV4Left>unused pvo4left</Joy_POV4Left>
+	<Joy_POV1Up>unused pov1up</Joy_POV1Up>
+	<Joy_POV1Right>unused pov1right</Joy_POV1Right>
+	<Joy_POV1Down>unused pov1down</Joy_POV1Down>
+	<Joy_POV1Left>unused pov1left</Joy_POV1Left>
+	<Joy_POV2Up>unused pov2up</Joy_POV2Up>
+	<Joy_POV2Right>unused pov2right</Joy_POV2Right>
+	<Joy_POV2Down>unused pov2down</Joy_POV2Down>
+	<Joy_POV2Left>unused pov2left</Joy_POV2Left>
+	<Joy_POV3Up>unused pov3up</Joy_POV3Up>
+	<Joy_POV3Right>unused pov3right</Joy_POV3Right>
+	<Joy_POV3Down>unused pov3down</Joy_POV3Down>
+	<Joy_POV3Left>unused pov3left</Joy_POV3Left>
+	<Joy_POV4Up>unused pov4up</Joy_POV4Up>
+	<Joy_POV4Right>unused pov4right</Joy_POV4Right>
+	<Joy_POV4Down>unused pov4down</Joy_POV4Down>
+	<Joy_POV4Left>unused pov4left</Joy_POV4Left>
 	<Joy_1>Trigger Lever In</Joy_1>
 	<Joy_2>Trigger Lever Hold</Joy_2>
 	<Joy_3>Trigger Lever Squeeze</Joy_3>
